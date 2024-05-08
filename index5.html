@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h3>숫자맞추기 게임</h3>
+    <span>결과화면:</span><span id="result">up / down / bingo</span>
+    <form>
+      <label>숫자입력:</label>
+      <input id="user" />
+      <button id="play">시작</button>
+    </form>
+
+    <script src="custom.js"></script>
+  </body>
+</html>
+<!--
+    1.html요소 가지고 오기(input, buttonn, result)
+    2.숫자만들기(random)
+    3.user입력 - play버튼을 클릭하면 컴퓨터수와 유저숫자를 비교
+    컴퓨터숫자>유저숫자 up
+     컴퓨터숫자<유저숫자 down
+        컴퓨터숫자==유저숫자 bingo
+-->
